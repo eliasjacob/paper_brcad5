@@ -13,9 +13,9 @@ Legal scholars have been trying to predict the outcomes of trials for a long tim
 ## How to run   
 1 - Clone this project
 
-2 - Download the data from [here](https://www.kaggle.com/eliasjacob/brcad5) and place all files under `data/`
+2 - Download the data from [here](https://www.kaggle.com/eliasjacob/brcad5) and place all files inside `data/`
 
-3 - Download the pretrained language models from [here](https://jacob.al/paper_brcad5) and place all files and folders under this repository folder.
+3 - Download the pretrained language models from [here](https://jacob.al/paper_brcad5) and place all files and folders inside the folder `code/` in this  repository. Replace any existing files.
 
 4 - Install the enviroment
 ```bash
@@ -24,7 +24,7 @@ conda env create --file environment.yaml
 conda activate paper_brcad5
 ```
 
-5 - See files with the name beggiging with numbers `01` to `07` to reproduce our results 
+5 - See files with the name beggiging with numbers `01` to `07` inside the folder `code/` to reproduce our results 
 
 ### Citation   
 ```
