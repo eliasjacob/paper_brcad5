@@ -13,9 +13,9 @@ Legal scholars have been trying to predict the outcomes of trials for a long tim
 ## How to run   
 1 - Clone this project
 
-2 - Download the data from [here](https://www.kaggle.com/eliasjacob/brcad5) and place all files inside `data/`
+2 - Download all the parquet and csv files from [here](https://www.kaggle.com/eliasjacob/brcad5) and place all files inside `data/`
 
-3 - Download the pretrained language models from [here](https://jacob.al/paper_brcad5) and place all files and folders inside the folder `code/` in this  repository. Replace any existing files.
+3 - Use the same kaggle page described above to download the pretrained language models and place all files and folders inside the folder `code/` in this repository. Replace any existing files.
 
 4 - Install the enviroment
 ```bash
