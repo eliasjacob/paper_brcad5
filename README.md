@@ -1,6 +1,6 @@
 <div align="center">    
  
-# Using deep learning to predict outcomes of legal appeals better than human experts     
+# Using deep learning to predict outcomes of legal appeals better than human experts: a study using Brazilian federal courts     
 
 [![Paper](http://img.shields.io/badge/paper-XXXXX.11111.2222-3333.svg)](https://github.com/eliasjacob/paper_brcad5)
 
@@ -17,7 +17,7 @@ Legal scholars have been trying to predict the outcomes of trials for a long tim
 
 3 - Use the same kaggle page described above to download the pretrained language models and place all files and folders inside the folder `code/` in this repository. Replace any existing files.
 
-4 - Install the enviroment
+4 - Install the environment
 ```bash
 cd paper_brcad5
 conda env create --file environment.yaml
