@@ -1,0 +1,22 @@
+python3 bert_lstm.py \
+--accumulate_grad_batches=3 \
+--bert_batch_size=15 \
+--bidir_lstm=False \
+--distil_init=False \
+--drop_mult=0.1 \
+--gradient_clip_val=0.0 \
+--lr=3e-4 \
+--lr_divider=15 \
+--n_layers_lstm=1 \
+--output_lstm_size=1536 \
+--stochastic_weight_avg=True \
+--thresh_step=0.49 \
+--use_special_classifier=none \
+--project_name=predicting_outcome_appeals \
+--experiment_name=bert_lstm \
+--batch_size=8 \
+--epochs=8 \
+--lowercase=false \
+--train_path=../data/train_en.parquet \
+--valid_path=../data/valid_en.parquet \
+--test_path=../data/test_en.parquet

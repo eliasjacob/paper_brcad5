@@ -1,0 +1,32 @@
+{
+  "_name_or_path": "./modelo_original",
+  "architectures": [
+    "BigBirdForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "attention_type": "block_sparse",
+  "block_size": 64,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 7680,
+  "model_type": "big_bird",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_random_blocks": 3,
+  "pad_token_id": 3,
+  "position_embedding_type": "absolute",
+  "rescale_embeddings": false,
+  "sep_token_id": 4,
+  "transformers_version": "4.6.1",
+  "type_vocab_size": 2,
+  "use_bias": true,
+  "use_cache": true,
+  "vocab_size": 50000
+}

@@ -1,0 +1,16 @@
+python3 bigbird.py \
+--accumulate_grad_batches=2 \
+--drop_mult=0.3 \
+--gradient_clip_val=10.0 \
+--lr=0.0003 \
+--stochastic_weight_avg=True \
+--thresh_step=0.49 \
+--use_special_classifier=none \
+--project_name=predicting_outcome_appeals \
+--experiment_name=bigbird \
+--batch_size=8 \
+--epochs=15 \
+--lowercase=false \
+--train_path=../data/train_en.parquet \
+--valid_path=../data/valid_en.parquet \
+--test_path=../data/test_en.parquet

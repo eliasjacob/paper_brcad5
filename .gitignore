@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Files over 100mb
+code/bert_lstm-best.ckpt
+code/bigbird-best.ckpt
+code/bigbird-jus/pytorch_model.bin
+code/general_portuguese_language_models/ulmfit/pt_wt_60k_ulmfit_bwd.pth
+code/general_portuguese_language_models/ulmfit/pt_wt_60k_ulmfit_fwd.pth
+code/legal_portuguese_language_models/05-2020_fine_tuned_enc_lm_sentencas_60k_ulmfit_bwd.pth
+code/legal_portuguese_language_models/05-2020_fine_tuned_enc_lm_sentencas_60k_ulmfit_fwd.pth
+code/saved_models_ulmfit/ulmfit_backward_exported
+code/saved_models_ulmfit/ulmfit_forward_exported
+data/humans_en.parquet
+data/language_modeling_texts.parquet
+data/test_en.parquet
+data/train_en.parquet
+data/valid_en.parquet
