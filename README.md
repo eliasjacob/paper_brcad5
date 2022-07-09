@@ -20,7 +20,7 @@ Legal scholars have been trying to predict the outcomes of trials for a long tim
 4 - Install the environment
 ```bash
 cd paper_brcad5
-conda env create --file environment.yaml
+conda env create --file code/environment.yaml
 conda activate paper_brcad5
 ```
 
