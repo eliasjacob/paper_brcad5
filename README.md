@@ -2,7 +2,7 @@
  
 # Using deep learning to predict outcomes of legal appeals better than human experts: A study with data from Brazilian federal courts   
 
-[![Paper](https://zenodo.org/badge/doi/10.1371/journal.pone.0272287.svg)](https://github.com/eliasjacob/paper_brcad5)
+[![Paper](https://zenodo.org/badge/doi/10.1371/journal.pone.0272287.svg)](https://doi.org/10.1371/journal.pone.0272287)
 [![Datasets](https://img.shields.io/badge/dataset-BrCAD5-red)](https://www.kaggle.com/datasets/eliasjacob/brcad5)
 
 
